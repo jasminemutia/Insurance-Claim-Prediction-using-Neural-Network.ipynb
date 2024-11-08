@@ -43,4 +43,8 @@ A baseline neural network model was developed with the following structure:
 The model is designed to optimize performance using categorical cross-entropy loss and an Adam optimizer.
 
 ## Results
-Model performance metrics, such as accuracy, F1-score, and AUC, are calculated on the test and validation sets. The implementation provides insights into the importance of data balancing and scaling in improving prediction accuracy for insurance claim approval.
+- Accuracy Score: 0.896 (or 89.6%) indicates that the model correctly predicts claim approvals in nearly 90% of cases, which is generally quite strong, especially if compared with other benchmarks or similar datasets.
+- Precision and Recall: Precision (0.923) and Recall (0.900) suggest the model is well-balanced. A high precision of 92.3% means it is good at predicting true approvals (few false positives), and a 90% recall indicates it captures most true approvals with few false negatives.
+- F1-Score: 0.911, balancing precision and recall, reinforces that the model is performing reliably across the board.
+
+In summary, these results reflect a strong performance, with high precision and recall indicating effective classification of insurance claims. However, depending on your project's goals, you may consider further fine-tuning or cross-validating to optimize these metrics further if needed.
